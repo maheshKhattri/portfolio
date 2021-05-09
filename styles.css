@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+body {
+  background-color: lightgray;
+  margin: 0;
+  font-family: "Rokkitt", serif;
+  width: 100vw;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 128, 128);
+  height: 10vh;
+  width: 100vw;
+  display: inline-grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-size: 1.2rem;
+}
+#navbar > a:hover {
+  background-color: purple;
+  padding: 0.3125rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+#footer {
+  cursor: pointer;
+
+  background-color: rgba(0, 120, 120, 0.5);
+
+  margin-top: 0.625rem;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+#footer > a {
+  margin: 0.625rem;
+}
+#img1 {
+  height: 15rem;
+  display: block;
+}
+
+#img-container {
+  display: flex;
+  column-gap: 1.25rem;
+  justify-content: center;
+}
+input,
+textArea {
+  width: 12rem;
+}
+#content {
+  margin-top: 4rem;
+  margin-left: 0.5rem;
+}
+
+#getData {
+  margin: 0.625rem 0;
+}
+label {
+  display: inline-block;
+  width: 7rem;
+  text-align: right;
+  margin-right: 1rem;
+  /* padding-top: 5px; */
+}
+form {
+  text-align: center;
+}
+table,
+td,
+th {
+  border: 0.0625rem solid black;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding-left: 1rem;
+  text-align: left;
+}
+#showData {
+  margin-left: 35vw;
+  font-size: large;
+  margin-right: 1rem;
+}
+#getData {
+  margin-left: 11.9vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    position: relative;
+    /* background-color: red;s */
+    width: initial;
+    height: initial;
+    display: block;
+  }
+  #navbar > a {
+    display: block;
+    width: 100vw;
+    margin-bottom: 0.7rem;
+    padding-left: 0.37rem;
+  }
+}

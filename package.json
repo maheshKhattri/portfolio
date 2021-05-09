@@ -1,0 +1,14 @@
+{
+  "name": "navbar",
+  "version": "1.0.0",
+  "description": "practiceProject",
+  "main": "myApp.js",
+  "scripts": {
+    "test": "npm install <pkg>"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
