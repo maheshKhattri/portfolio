@@ -2,7 +2,7 @@
   "name": "navbar",
   "version": "1.0.0",
   "description": "practiceProject",
-  "main": "myApp.js",
+  "main": "server.js",
   "scripts": {
     "test": "npm install <pkg>"
   },
