@@ -1,13 +1,22 @@
 {
   "name": "navbar",
   "version": "1.0.0",
-  "description": "practiceProject",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "npm install <pkg>"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://maheshKhattri@github.com/maheshKhattri/portfolio.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshKhattri/portfolio/issues"
+  },
+  "homepage": "https://github.com/maheshKhattri/portfolio#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
