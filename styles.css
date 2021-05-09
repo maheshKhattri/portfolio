@@ -31,7 +31,7 @@ body {
   margin-bottom: 0;
   display: inline-flex;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
 }
 #footer > a {
   margin: 0.625rem;
@@ -57,6 +57,7 @@ textArea {
 
 #getData {
   margin: 0.625rem 0;
+  margin-left: 6.9rem;
 }
 label {
   display: inline-block;
@@ -84,14 +85,11 @@ th {
   font-size: large;
   margin-right: 1rem;
 }
-#getData {
-  margin-left: 11.9vw;
-}
 
 @media only screen and (max-width: 600px) {
   #navbar {
     position: relative;
-    /* background-color: red;s */
+
     width: initial;
     height: initial;
     display: block;
@@ -101,5 +99,8 @@ th {
     width: 100vw;
     margin-bottom: 0.7rem;
     padding-left: 0.37rem;
+  }
+  #footer {
+    width: 100%;
   }
 }

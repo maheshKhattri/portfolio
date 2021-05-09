@@ -10,10 +10,10 @@ var mysql = require("mysql");
 const e = require("express");
 var PORT = 5001;
 var db = mysql.createConnection({
-  host: "bcxjvebcajhn59xh8frj-mysql.services.clever-cloud.com",
-  user: "uaoq171yudqwovoo",
-  password: "U51UNBQY15aM5XBeoRZP",
-  database: "bcxjvebcajhn59xh8frj"
+  host: "bci8sfxegnyzsfckxxuw-mysql.services.clever-cloud.com",
+  user: "usojaktfspea0prn",
+  password: "z8B7mlbJDZiwzdKaxS9E",
+  database: "bci8sfxegnyzsfckxxuw"
 });
 
 db.connect(function (err) {

@@ -54,7 +54,7 @@ function displayDB() {
     .then((res) => {
       console.log(res);
 
-      var showTable = `<table style="width:50%">
+      var showTable = `<table style="width:100%">
       <tr>
       <th>Title</th>
       <th>Date</th>
@@ -66,7 +66,6 @@ function displayDB() {
         <td>${new Date(res[i].date).toDateString()}</td>
         <td>${res[i].reminder}</td>
         </tr>`;
-        // images += "<div class ='row'>" + res[i].myFile + "</div>";
       }
       showTable += "</table>";
 
@@ -74,7 +73,3 @@ function displayDB() {
     })
     .catch((err) => console.log(err));
 }
-
-// function navBar_mobileView{
-
-// }
