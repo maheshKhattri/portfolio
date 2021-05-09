@@ -3,7 +3,7 @@ body {
   background-color: lightgray;
   margin: 0;
   font-family: "Rokkitt", serif;
-  width: 100vw;
+  width: fit-content;
 }
 #navbar {
   position: fixed;
@@ -29,9 +29,9 @@ body {
 
   margin-top: 0.625rem;
   margin-bottom: 0;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 #footer > a {
   margin: 0.625rem;

@@ -75,6 +75,6 @@ function displayDB() {
     .catch((err) => console.log(err));
 }
 
-function navBar_mobileView{
-  
-}
+// function navBar_mobileView{
+
+// }
