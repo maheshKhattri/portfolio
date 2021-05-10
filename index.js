@@ -9,6 +9,9 @@ app.use(express.urlencoded({ extended: true }));
 var mysql = require("mysql");
 const e = require("express");
 var PORT = 8080;
+app.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "/index.html"));
+});
 var db = mysql.createConnection({
   host: "bci8sfxegnyzsfckxxuw-mysql.services.clever-cloud.com",
   user: "usojaktfspea0prn",
