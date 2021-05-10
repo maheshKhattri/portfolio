@@ -28,7 +28,7 @@ function appendAbout() {
 
 function appendForm() {
   var form = `<br />
-  <form id="form" method="POST" action =" 0.0.0.0:8080:8080/post"  >
+  <form id="form" method="POST" action ="http://app-34435e2c-5190-4508-9ec4-73e52ec9db1f.cleverapps.io:8080/post"  >
     <label for="title" >Title</label>
     <input type="text" id="title" name="title" required /><br />
     <br />
@@ -49,7 +49,9 @@ function appendForm() {
 }
 
 function displayDB() {
-  fetch(" 0.0.0.0:8080/get")
+  fetch(
+    "http://app-34435e2c-5190-4508-9ec4-73e52ec9db1f.cleverapps.io:8080/get"
+  )
     .then((res) => res.json())
     .then((res) => {
       console.log(res);
