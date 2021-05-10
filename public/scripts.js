@@ -53,7 +53,7 @@ function displayDB() {
     .then((res) => res.json())
     .then((res) => {
       console.log(res);
-
+      document.querySelector("#showData").innerHTML += "";
       var showTable = `<table style="width:100%">
       <tr>
       <th>Title</th>
