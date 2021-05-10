@@ -3,6 +3,7 @@ var app = express();
 
 var cors = require("cors");
 app.use(cors());
+app.use("static", express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -10,7 +11,7 @@ var mysql = require("mysql");
 var path = require("path");
 var PORT = 8080;
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "/index.html"));
+  res.sendFile(path.join(__dirname, "/static/index.html"));
 });
 var db = mysql.createConnection({
   host: "bci8sfxegnyzsfckxxuw-mysql.services.clever-cloud.com",
