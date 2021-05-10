@@ -49,7 +49,7 @@ function appendForm() {
 }
 
 function displayDB() {
-  fetch("http://127.0.0.1:5001/get")
+  fetch("http://127.0.0.1:8080/get")
     .then((res) => res.json())
     .then((res) => {
       console.log(res);
