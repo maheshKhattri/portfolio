@@ -28,7 +28,7 @@ function appendAbout() {
 
 function appendForm() {
   var form = `<br />
-  <form id="form" method="POST" action ="http://127.0.0.1:5001/post"  >
+  <form id="form" method="POST" action ="http://127.0.0.1:8080/post"  >
     <label for="title" >Title</label>
     <input type="text" id="title" name="title" required /><br />
     <br />
