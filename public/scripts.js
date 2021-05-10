@@ -28,7 +28,7 @@ function appendAbout() {
 
 function appendForm() {
   var form = `<br />
-  <form id="form" method="POST" action ="wss://api.clever-cloud.com/v2:8080/post"  >
+  <form id="form" method="POST" action =" 0.0.0.0:8080:8080/post"  >
     <label for="title" >Title</label>
     <input type="text" id="title" name="title" required /><br />
     <br />
@@ -49,7 +49,7 @@ function appendForm() {
 }
 
 function displayDB() {
-  fetch("wss://api.clever-cloud.com/v2:8080/get")
+  fetch(" 0.0.0.0:8080/get")
     .then((res) => res.json())
     .then((res) => {
       console.log(res);
